@@ -1,0 +1,71 @@
+/*
+* Include setting and color styles
+*/
+
+@import "setting.scss";
+@import "colors.scss";
+
+/* ==============================
+        Set custom styles
+  ============================== */
+
+::-webkit-input-placeholder {
+    color: $text;
+} 
+:-ms-input-placeholder { 
+    color: $text;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+::placeholder {
+    color: $text;
+}
+
+html, body{
+    height: 100%;
+}
+
+.page-wrapper{
+    min-height: 100%;
+    position: relative;
+}
+
+body{
+    position: relative;
+    font-size: $text_s;
+    font-weight: $regular;
+    line-height: 16px;
+}
+
+.container{
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    max-width: $container-width;
+    padding: $container-padding;
+}
+
+h1{
+    font-size: $h1;
+    font-weight: $text;
+    line-height: 56px;
+}
+
+.p{
+    font-size: $text_s;
+    line-height: 22px;
+    color: $text;
+
+    span{
+        font-weight: $bold;
+    }
+}

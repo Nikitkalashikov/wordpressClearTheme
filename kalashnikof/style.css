@@ -1,0 +1,44 @@
+/*
+*   Theme Name: itcomgk
+*   Theme URI: https://uc-itcom.ru
+*   Author: Nikita Kalashnikov
+*   Author URI: n.kalashnikov@itcomgk.ru
+*   Version: 1.0
+*   textdomain: itcomgk
+*   Description: Custom theme for itcomgk
+*/
+
+*{
+    box-sizing: border-box;
+}
+
+html{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+    line-height: 1;
+}
+
+article,
+aside,
+footer,
+header,
+nav,
+section {
+	display: block;
+}
+
+figcaption,
+figure,
+main {
+	display: block;
+}
+
+figure {
+	margin: 1em 0;
+}
